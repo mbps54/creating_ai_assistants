@@ -93,7 +93,7 @@ print(f"Total tokens: {response.usage.total_tokens}")
 import tiktoken
 
 enc = tiktoken.encoding_for_model("gpt-4o-mini")
-text = "How does LLM split words into tokens?"
+text = "What is LLM?"
 tokens = enc.encode(text)
 
 for token in tokens:
